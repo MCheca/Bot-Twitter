@@ -1,0 +1,23 @@
+{
+  "name": "twitterauto",
+  "version": "1.0.0",
+  "description": "Automatizacion de Twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "automatic"
+  ],
+  "author": "Marcos Checa Pérez",
+  "license": "ISC",
+  "dependencies": {
+    "feedsub": "^0.7.1",
+    "fs": "0.0.1-security",
+    "node-cron": "^2.0.3",
+    "rss-converter": "^1.1.6",
+    "rss-emitter-ts": "^0.4.1",
+    "twit": "^2.2.11"
+  }
+}
