@@ -212,7 +212,7 @@ function reTweet(tweet) {
 
 //Funcion encargada de seguir a una cuenta
 function seguirCuenta(tweet) {
-  if (randomNumber() < prob_follow && tweet.user.followers_count>(min_followers/2) && (follow_diarios_actuales<follow_diarios_actuales) && tweet.entities.hashtags.length<3) {
+  if (randomNumber() < prob_follow && tweet.user.followers_count>(min_followers/2) && (follow_diarios_actuales<follow_diarios) && tweet.entities.hashtags.length<3) {
     T.post(
       "friendships/create",
       { screen_name: tweet.user.screen_name },
